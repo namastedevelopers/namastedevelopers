@@ -142,5 +142,15 @@ aside#sidebar{
   width:30%;
   margin-left:70%;
 }
+ div#para_2{
+  padding:10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  color:maroon;
+  text-shadow:3px 3px 5px black;
+  font-size:16px;
+  }
+  
+
+
 /* css for services page */
 
