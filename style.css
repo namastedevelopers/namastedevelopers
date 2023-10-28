@@ -1,0 +1,146 @@
+     /*stylesheet for hompage*/
+     body{
+         
+     }
+     main.homepage{
+     min-height:400px;
+     background:url('rohit_bg_cover.jpg')   no-repeat;
+     background-position: center;
+     background-size: cover;
+     color:#ffffff;
+     background-attachment:scroll;
+     
+     }
+     .rohitlogo{
+      text-align:center;
+     }
+    .rohitlogo img{
+     width:90px;  
+     border-radius:100%;
+     border:1px solid blue;
+     background:#e8491d;
+     padding-left: 20px;
+     padding-right:20px;
+     color:#ffffff;
+     margin-top:20px;
+     }
+     .name{
+     color:black;
+     text-decoration:underline;
+     
+     }
+     header{
+     background-color:teal;
+     text-align:center;
+     padding:5px;
+     }
+     header h1#well{
+     font-color:black;
+     text-decoration:bold;
+     }
+     nav{
+     background-color:lightblue;
+     box-shadow:0 0 4px dimgray;
+     padding:5px 0;
+     border:double green;
+     }
+     .but{
+     box-shadow: 0 0 5px cyan,
+     0 0 25px cyan;
+     border-radius:20px;
+     }
+     nav a{
+      color:black;
+     }
+     but:hover{
+     box-shadow: 0 0 5px cyan,
+     0 0 25px cyan, 0 0 50px cyan, 
+     0 0 80px cyan, 0 0 160px cyan;
+     }
+     div>h2{
+     text-align:center;
+     color:blue;
+     text-shadow:none;
+     }
+     div#para{
+     padding:10px 10px 10px 10px;
+     margin: 20px 20px 20px 20px;
+     color:maroon;
+     text-shadow:3px 3px 5px black;
+     font-size:16px;
+     }
+     .button_1{
+     height:38px;
+     background:#e8491d;
+     border:0;
+     padding-left: 20px;
+     padding-right:20px;
+     color:#ffffff;
+     }
+     .button_1:hover{
+     }
+     #newsletter{
+     padding:15px;
+     color:#ffffff;
+     background:#35424a
+     }
+
+     #newsletter#sub{
+     float:left;
+     }
+
+     #newsletter form {
+     float:right;
+     margin-top:15px;
+     }
+
+     #newsletter input[type="email"]{
+     padding:4px;
+     height:25px;
+     width:250px;
+     }
+     footer{
+     text-align:center;
+     font-color:maroon;
+     background-color:lightblue;
+     text-size:small;
+     border-top:solid black;
+     }
+     #last{
+     text-align:right;
+     font-size:20px;
+     margin:  0 0 0 10px ;
+     padding:0px;
+     } 
+     footer>h3{
+     text-align:bottom;
+     }
+     footer>h4{
+     text-align:center;
+     }
+     #whatsapp{
+     width:30px;
+     }
+     #instagram{
+     width:30px;
+     }
+     #facebook{
+     width:30px;
+     color:blue;
+     }
+     
+/* css for about us page*/
+     .dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+aside#sidebar{
+  float:top;
+  width:30%;
+  margin-left:70%;
+}
+/* css for services page */
+
