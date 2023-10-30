@@ -1,3 +1,7 @@
+*{
+  padding:0;
+  margin:0;
+}
 /*stylesheet for hompage*/
   body {
   -webkit-user-select: none; /* Disable text selection on webkit browsers (Chrome,
