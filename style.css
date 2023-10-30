@@ -1,10 +1,15 @@
-     /*stylesheet for hompage*/
-     body{
-         
-     }
+/*stylesheet for hompage*/
+  body {
+  -webkit-user-select: none; /* Disable text selection on webkit browsers (Chrome,
+      Safari, etc.) */
+   -moz-user-select: none; /* Disable text selection on Mozilla Firefox */    
+   -ms-user-select: none; /* Disable text selection on Microsoft Edge */    
+   user-select: none; /* Disable text selection on other browsers */ 
+   }
+
      main.homepage{
      min-height:400px;
-     background:url('rohit_bg_cover.jpg')   no-repeat;
+     background:url('rohit_bg_cover_1.jpg')   no-repeat;
      background-position: center;
      background-size: cover;
      color:#ffffff;
@@ -57,6 +62,13 @@
      0 0 25px cyan, 0 0 50px cyan, 
      0 0 80px cyan, 0 0 160px cyan;
      }
+/* cuurent button color & highlight */
+
+     nav #current{
+     color:#e8491d;
+     font-weight:bold;
+     }     
+
      div>h2{
      text-align:center;
      color:blue;
@@ -65,7 +77,7 @@
      div#para{
      padding:10px 10px 10px 10px;
      margin: 20px 20px 20px 20px;
-     color:white;
+     color:maroon;
      text-shadow:3px 3px 5px black;
      font-size:16px;
      }
@@ -82,7 +94,7 @@
      #newsletter{
      padding:15px;
      color:#ffffff;
-     background:#35424a
+     background:#35424a;
      }
 
      #newsletter#sub{
@@ -129,7 +141,7 @@
      color:blue;
      }
      
-/* css for about us page*/
+/* css for about us page & services */ 
      .dark{
   padding:15px;
   background:#35424a;
@@ -141,16 +153,56 @@ aside#sidebar{
   float:top;
   width:30%;
   margin-left:70%;
+  content-align:top;
 }
- div#para_2{
-  padding:10px 10px 10px 10px;
-  margin: 20px 20px 20px 20px;
-  color:maroon;
-  text-shadow:3px 3px 5px black;
-  font-size:16px;
+#boxes .logo_group{
+  margin-right:30%;
+}
+ 
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  text-align: center;
+  width:30%;
+  padding:10px;
+  float:left;
+}
+
+#boxes .box img{
+  width:90px;
   }
   
+  #boxes .box #logo{
+  width:90px; 
+  border-radius:100%;
+  border:1px solid maroon;
+  background:#e8491d;
+  color:#ffffff;
+  margin-top:0px;
+  }
+  
+#boxes .developers h2{
+    color:maroon;
+    font-style:itelic;
+    text-decoration:underline;
+    text-align:center;
+    text-shadow:3px 3px 5px black;
+}
+
+/* css for services page */ 
 
 
-/* css for services page */
+#boxes .png_group{
+  color:maroon;
+  text-shadow:3px 3px 5px black;
+}
 
+#boxes .box #angular{
+    width:200px;
+}
+
+
+          
